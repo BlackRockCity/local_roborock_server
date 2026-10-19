@@ -2,7 +2,7 @@
 
 An interactive Bash wrapper for the **official Roborock iOS app** login procedure used with [Python-roborock/local_roborock_server](https://github.com/Python-roborock/local_roborock_server).
 
-**Status:** Community-contributed workflow, not an upstream-supported installer. The wrapper described here has not been independently end-to-end tested in its latest form. Review it and test against your installed `mitm_redirect.py` before distributing it.
+**Status:** Community-contributed Bash helper, tested successfully on my Mac. It guides the existing onboarding procedure, launches and stops the temporary MITM server, and opens its authenticated browser interface. It is not an installer. Compatibility with other environments has not been confirmed.
 
 ## What this does
 
